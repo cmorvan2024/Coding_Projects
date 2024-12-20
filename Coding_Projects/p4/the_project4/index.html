@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb's Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="main2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main2.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Caleb Morvan's Tic-Tac-Toe</h1>
+        <p>Let's see who can win in this game of Tic-Tac-Toe... Losers are dealt with harshly.</p>
+    </header>
+    <div class="container">
+        <div id="gameBoard">
+            <!-- Game grid -->
+            <div class="row">
+                <div class="cell" data-cell="0"></div>
+                <div class="cell" data-cell="1"></div>
+                <div class="cell" data-cell="2"></div>
+            </div>
+            <div class="row">
+                <div class="cell" data-cell="3"></div>
+                <div class="cell" data-cell="4"></div>
+                <div class="cell" data-cell="5"></div>
+            </div>
+            <div class="row">
+                <div class="cell" data-cell="6"></div>
+                <div class="cell" data-cell="7"></div>
+                <div class="cell" data-cell="8"></div>
+            </div>
+        </div>
+        <button id="resetButton">Reset Game</button>
+        <p id="message"></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Caleb Morvan Inc. Good Luck!</p>
+    </footer>
+</body>
+</html>
